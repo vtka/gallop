@@ -1,0 +1,71 @@
+/* HeroBlock Component */
+.hero-block-container {
+  display: block;
+  width: 526px;
+  margin: 0px 10px;
+}
+
+.hero-block-container h1 {
+  font-size: 36;
+  font-weight: lighter;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+
+/*TrackingMain Component */
+.track-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 526px;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 50px;
+  background-color: white;
+  border: 0.2px solid black;
+}
+
+.track-sub-container {
+  max-width: 57px;
+  position: relative;
+  top: 16px;
+  left: 1px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bitmap-img {
+  position: relative;
+  bottom: 40px;
+  left: 15px;
+}
+
+.track-container span {
+  margin-left: 20px;
+  color: #545454;
+}
+
+/* input[type="text"] {
+  border: 1px solid #cccccc; 
+  border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  -khtml-border-radius: 3px; 
+  background: #ffffff !important; 
+  outline: none; 
+  height: 24px; 
+  width: 120px; 
+  color: #cccccc; 
+  font-size: 11px; 
+  font-family: Tahoma; 
+} */
+/* .input-tracking {
+  max-width: 526px;
+  height: 49px;
+  background-color: white;
+  outline: none;
+  font-family: Helvetica; 
+  font-size: 16px;
+  background: #ffffff !important; 
+} */

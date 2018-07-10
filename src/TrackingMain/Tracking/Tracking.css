@@ -1,0 +1,57 @@
+.tracking__input {
+    height: 40px;
+    border-radius: 6px;
+    width: 100%; 
+  }
+  
+  .tracking__info-box {
+    text-align: center;
+  }
+  
+  .tracking__info-box p {
+    text-align: left;
+  }
+  
+  .tracking__error-box {
+    text-align: left;
+  }
+  
+  .tracking__waybill-box dd {
+    margin-bottom: 5px;
+  }
+  
+  .tracking__tracks {
+    position: relative;
+  }
+  
+  .tracking__track {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .tracking__track:last-child:before {
+    content: none;
+  }
+  
+  .tracking__track:before {
+    content: " ";
+    display: block;
+    height: 40px;
+    width: 2px;
+    background-color: #00509d;
+    position: absolute;
+    left: 16px;
+    top: 25px;
+  }
+  
+  .tracking__track-code {
+    text-transform: uppercase;
+    background-color: #00509d;
+    padding: 5px 7px;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 100px;
+  }
+  .tracking__track-time {
+    float: right;
+  }

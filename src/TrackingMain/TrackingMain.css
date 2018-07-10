@@ -1,0 +1,21 @@
+.tracking-main-container {
+    display: block;
+    margin: 0px 100px;
+    border-top: 1px rgba(0,0,0,.2) solid;
+    color: #333333;
+  }
+
+.tracking-main-container p {
+  margin-top: 21px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tracking-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 50px;
+    border-top: 1px rgba(0,0,0,.2) solid;
+  }
+}

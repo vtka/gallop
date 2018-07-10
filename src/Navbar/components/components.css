@@ -1,0 +1,56 @@
+/* sub-nav global */
+.sub-nav-properties {
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+/* navLogo Component */
+.nav-logo {
+	width: 230px;
+}
+
+/* navSpan Component */
+.nav-span {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 10px 20px;
+}
+
+.nav-span:hover,
+.nav-span:active {
+	color: #EE7A00;
+}
+
+/* navContactInfo Component */
+.nav-contact-info {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.nav-contact-info a {
+  text-decoration: none;
+  color: #EE7A00;
+}
+
+/*RESPONSIVE CLASSES*/
+
+@media only screen and (max-width: 600px) {
+  .nav-contact-info {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: lighter;
+  }
+
+  .nav-logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-span {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 20px;
+  }
+}

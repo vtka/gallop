@@ -1,0 +1,25 @@
+.contact-main-container {
+    display: block;
+    margin: 0px 100px;
+    border-top: 1px rgba(0,0,0,.2) solid;
+    color: #333333;
+  }
+
+  .contact-info-p {
+    margin: 8px 0px;
+    padding: 0px;
+  }
+
+  .contact-sub-container {
+    margin-top: 20px;
+    border-top: 1px rgba(0,0,0,.2) solid;
+    color: #333333;
+  }
+
+  @media only screen and (max-width: 600px) {
+		.contact-main-container {
+      text-align: left;
+      width: 300px;
+      margin: auto;
+		}
+	}

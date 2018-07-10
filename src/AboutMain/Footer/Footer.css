@@ -1,0 +1,21 @@
+/*FOOTER*/
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #545454;
+    height: 100px;
+  }
+  
+  .footer-container span {
+    color: white;
+    font-size: 16px;
+  }
+
+/*RESPONSIVE CLASSES*/
+
+@media only screen and (max-width: 600px) {
+    .footer-container {
+      height: 70px;
+    }
+  }
