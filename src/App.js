@@ -13,34 +13,11 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar />
-          <Route path='/AboutMain' render = {
-            () => {
-              return (
-                <AboutMain />
-              );
-            }
-          }/>
-          <Route path='/ServicesMain' render = {
-            () => {
-              return (
-                <ServicesMain />
-              );
-            }
-          }/>
-          <Route path='/ContactMain' render = {
-            () => {
-              return (
-                <ContactMain />
-              );
-            }
-          }/> 
-          <Route path='/TrackingMain' render = {
-            () => {
-              return (
-                <TrackingMain />
-              );
-            }
-          }/>         
+          {/* <Route exact path="/" component= {Home} /> */}
+          <Route path="/AboutMain" component= {AboutMain} />
+          <Route path="/ContactMain" component= {ContactMain} />
+          <Route path="/ServicesMain" component= {ServicesMain} />
+          <Route path="/TrackingMain" component= {TrackingMain} />
         </div>
       </Router>
     );
@@ -48,3 +25,4 @@ class App extends Component {
 }
 
 export default App;
+
