@@ -6,9 +6,10 @@ import './TrackingMain.css';
 const TrackingMain = () => {
 	return (
 		<div className='tracking-main-container'>
-            <h1>Трекинг</h1>
-			<span>С услугами и тарифами можно ознакомиться скачав наше коммерческое приложение</span>
-            <Tracking />
+            {/* <h1>Трекинг</h1> */}
+			<div className='tracking-container'>
+            	<Tracking />
+			</div>
 		</div>
 )
 };

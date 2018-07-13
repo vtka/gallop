@@ -3,6 +3,11 @@
     border-radius: 6px;
     width: 100%; 
   }
+
+/* . form-control {
+  font-family: Helvetica;
+  font-size: 16px;
+} */
   
   .tracking__info-box {
     text-align: center;
@@ -14,10 +19,15 @@
   
   .tracking__error-box {
     text-align: left;
+    margin: 0;
   }
   
   .tracking__waybill-box dd {
     margin-bottom: 5px;
+  }
+
+  .tracking__waybill-box h2 {
+    margin-top: 0px;
   }
   
   .tracking__tracks {
@@ -55,3 +65,25 @@
   .tracking__track-time {
     float: right;
   }
+
+  .form-group input {
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+dd, dl, figure, p {
+  margin: 0 0 1.45rem;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.aside-text {
+  margin-top: 5px;
+}

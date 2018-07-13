@@ -4,9 +4,11 @@ import moment from 'moment';
 // import moment from 'moment/min/moment-with-locales.min.js';
 import axios from 'axios';
 
-moment.locale('ru')
+import 'bootstrap-4-grid/css/grid.min.css'
 
 import './Tracking.css';
+
+moment.locale('ru')
 
 class Tracking extends React.Component {
 
@@ -140,7 +142,7 @@ class Tracking extends React.Component {
         {track.code}
       </span>
       {track.description}
-      {track.code == 'ls' && <aside><small>Указано время регистрации деталей доставки. Фактическое время доставки указано в блоке "Успешная доставка" выше.</small></aside> }
+      {track.code == 'ls' && <aside className='aside-text'><small>Указано время регистрации деталей доставки. Фактическое время доставки указано в блоке "Успешная доставка" выше.</small></aside> }
     </p>
   )
 
