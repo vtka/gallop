@@ -1,12 +1,15 @@
 /* HeroBlock Component */
 .hero-block-container {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 526px;
   margin: 0px 10px;
 }
 
 .hero-block-container h1 {
   font-size: 36;
+  width: 526px;
   font-weight: lighter;
   text-align: center;
   margin: 5px;
@@ -18,11 +21,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 526px;
+  width: 280px;
   height: 50px;
-  margin-top: 40px;
+  margin-top: 10px;
   border-radius: 50px;
-  background-color: white;
+  background-color: #ff7100;
   border: 0.2px solid black;
 }
 
@@ -37,15 +40,24 @@
 
 .bitmap-img {
   position: relative;
-  bottom: 40px;
-  left: 15px;
+  right: 15px;
+  /* top: 2px; */
 }
 
 .track-container span {
-  margin-left: 20px;
-  color: #545454;
+  margin-left: 30px;
+  /* font-family: Helvetica lighter; */
+  color: white;
+  font-weight: lighter;
 }
 
+.a-h {
+  margin: 0;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* input[type="text"] {
   border: 1px solid #cccccc; 
   border-radius: 3px; 

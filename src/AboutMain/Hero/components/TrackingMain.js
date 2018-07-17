@@ -5,13 +5,10 @@ import Tracking from './media/tracking.png';
 
 const TrackingMain = () => {
 	return (
-		<div class="track-container">
-			<span>Трекинг по номеру накладной</span>
-			<a href="#">
-					<div class="track-sub-container">
-						<img src={Tracking} />
-						<img className='bitmap-img' src={Bitmap} />
-					</div>
+		<div className="track-container" >
+			<a className='a-h' href='././TrackingMain/TrackingMain'>
+				<span>Перейти к отслеживанию</span>
+				<img className='bitmap-img' src={Bitmap} />
 			</a>
 		</div>
 )
