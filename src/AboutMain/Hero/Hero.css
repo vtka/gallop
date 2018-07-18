@@ -14,5 +14,12 @@
 	.hero-container {
     background-position: 0px -20px;
     height: 350px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./components/media/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

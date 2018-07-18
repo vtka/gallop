@@ -3,13 +3,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 526px;
+  max-width: 526px;
   margin: 0px 10px;
 }
 
 .hero-block-container h1 {
-  font-size: 36;
-  width: 526px;
+  font-size: 36px;
+  max-width: 526px;
   font-weight: lighter;
   text-align: center;
   margin: 5px;
@@ -45,7 +45,7 @@
 }
 
 .track-container span {
-  margin-left: 60px;
+  margin-left: 55px;
   /* font-family: Helvetica lighter; */
   color: white;
   font-weight: lighter;
@@ -81,3 +81,14 @@
   font-size: 16px;
   background: #ffffff !important; 
 } */
+
+@media only screen and (max-width: 800px) {
+	.hero-block-container h1 {
+    font-size: 28px;
+    width: 456px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    color: white;
+  }
+}

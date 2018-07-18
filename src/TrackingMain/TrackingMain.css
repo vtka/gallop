@@ -13,6 +13,10 @@
   margin: 20px 0 0 150px;
 }
 
+.tracking-main-container h1 {
+  margin-left: 150px;
+}
+
 @media only screen and (max-width: 600px) {
   .tracking-main-container {
     display: flex;
@@ -28,4 +32,31 @@
     width: 80%;
     margin: 20px 0 0 10px;
   }
+
+  .tracking-main-container h1 {
+    margin-left: 30px;
+  }
 }
+
+
+@media only screen and (max-width: 800px) {
+  .tracking-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    margin: 0px 0px;
+    border-top: 1px rgba(0,0,0,.2) solid;
+  }
+
+  .tracking-container {
+    display: flex;
+    width: 80%;
+    margin: 20px 0 0 10px;
+  }
+
+  .tracking-main-container h1 {
+    margin-left: 30px;
+  }
+}
+

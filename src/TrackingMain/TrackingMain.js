@@ -6,6 +6,7 @@ import './TrackingMain.css';
 const TrackingMain = () => {
 	return (
 		<div className='tracking-main-container'>
+			<h1>Трекинг</h1>
             {/* <h1>Трекинг</h1> */}
 			<div className='tracking-container'>
             	<Tracking />

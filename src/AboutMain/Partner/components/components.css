@@ -19,3 +19,11 @@
   text-decoration: underline;
   color: #ff1800;
 }
+
+@media only screen and (max-width: 600px) {
+	.partner-sub-container-p-1 {
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 10px 0px;
+  }
+}
