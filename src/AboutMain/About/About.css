@@ -19,6 +19,12 @@
 
 	@media only screen and (max-width: 600px) {
 		.about-container {
-			height: 800px;
+			height: 500px;
+		}
+	}
+
+	@media only screen and (max-width: 800px) {
+		.about-container {
+			height: 830px;
 		}
 	}

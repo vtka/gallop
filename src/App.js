@@ -6,6 +6,7 @@ import ContactMain from './ContactMain/ContactMain';
 import TrackingMain from './TrackingMain/TrackingMain';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
+import { Link } from 'react-router-dom'
 
 class App extends Component {
   render() {
@@ -14,10 +15,10 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Route exact path="/" component= {AboutMain} />
-          <Route path="/AboutMain" component= {AboutMain} />
-          <Route path="/ContactMain" component= {ContactMain} />
-          <Route path="/ServicesMain" component= {ServicesMain} />
-          <Route path="/TrackingMain" component= {TrackingMain} />
+          <Route path="/about" component= {AboutMain} />
+          <Route path="/contacts" component= {ContactMain} />
+          <Route path="/services" component= {ServicesMain} />
+          <Route path="/tracking" component= {TrackingMain} />
         </div>
       </Router>
     );

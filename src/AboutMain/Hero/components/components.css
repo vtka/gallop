@@ -40,12 +40,12 @@
 
 .bitmap-img {
   position: relative;
-  right: 15px;
+  right: 35px;
   /* top: 2px; */
 }
 
 .track-container span {
-  margin-left: 30px;
+  margin-left: 60px;
   /* font-family: Helvetica lighter; */
   color: white;
   font-weight: lighter;

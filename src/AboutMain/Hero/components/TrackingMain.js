@@ -1,15 +1,16 @@
 import React from 'react';
 import './components.css';
 import Bitmap from './media/Bitmap.png';
-import Tracking from './media/tracking.png';
+// import Tracking from './media/tracking.png';
+import { Link } from 'react-router-dom'
 
 const TrackingMain = () => {
 	return (
 		<div className="track-container" >
-			<a className='a-h' href='././TrackingMain/TrackingMain'>
-				<span>Перейти к отслеживанию</span>
+			<Link className='a-h' to='tracking'>
+				<span>Отследить посылку</span>
 				<img className='bitmap-img' src={Bitmap} />
-			</a>
+			</Link>
 		</div>
 )
 };
