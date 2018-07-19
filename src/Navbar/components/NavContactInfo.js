@@ -4,7 +4,7 @@ import './components.css';
 const NavContactInfo = () => {
 	return (
 		<div className='sub-nav-properties nav-contact'>
-			<span className='nav-contact-info'><a href="tel:+77273093999">+7 727 309 39 99</a></span>
+			<span className='nav-contact-info'><a href="tel:+77273393359">+7 727 339 33 59</a></span>
 		</div>
 )
 };

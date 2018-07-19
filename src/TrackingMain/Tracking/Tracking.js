@@ -25,7 +25,7 @@ class Tracking extends React.Component {
   }
 
   fetchWaybill = (code) => {
-    const uri = `http://api.gpserv.work/public/v1/tracking?waybill=${code}`
+    const uri = `http://api.gallop.work/public/v1/tracking?waybill=${code}`
     const history = Array.from(new Set([{ code: code, time: new Date() }, ...this.state.history])).slice(0, 5)
     this.setState({ loading: true, history: history })
     if(typeof window !== "undefined") {
@@ -215,7 +215,7 @@ class Tracking extends React.Component {
                 onChange={(x) => this.handleChange(x.target.value)}
                 value={this.state.code}
                 className="tracking__input form-control"
-                placeholder="GPS123456789KZ"
+                placeholder="KSP123456789"
               />
             </div>
           </form>
