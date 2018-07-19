@@ -7,6 +7,8 @@ import TrackingMain from './TrackingMain/TrackingMain';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import { Link } from 'react-router-dom'
+import { unregister } from './registerServiceWorker';
+unregister();
 
 class App extends Component {
   render() {
