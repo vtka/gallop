@@ -2,6 +2,7 @@
     display: block;
     margin: 0px 100px;
     border-top: 1px rgba(0,0,0,.2) solid;
+    border-bottom: 1px rgba(0,0,0,.2) solid;
     color: #333333;
   }
 
