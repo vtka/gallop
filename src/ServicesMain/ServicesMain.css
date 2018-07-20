@@ -6,7 +6,7 @@
   }
 
 .services-main-container p {
-  margin-top: 21px;
+  margin-top: 5px;
 }
 
 .services-main-a:link, .services-main:visited { 
@@ -23,8 +23,8 @@
   .services-main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+    justify-content: start;
+    text-align: left;
     margin: 0px 50px;
     border-top: 1px rgba(0,0,0,.2) solid;
   }
