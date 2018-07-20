@@ -8,7 +8,7 @@ const TrackingMain = () => {
 	return (
 		<div className="track-container" >
 			<Link className='a-h' to='tracking'>
-				<span>Отследить посылку</span>
+				<span>Отследить отправление</span>
 				<img className='bitmap-img' src={Bitmap} />
 			</Link>
 		</div>
