@@ -85,7 +85,7 @@
 @media only screen and (max-width: 800px) {
 	.hero-block-container h1 {
     font-size: 28px;
-    width: 456px;
+    width: auto;
     font-weight: lighter;
     text-align: center;
     margin: 5px 10px 5px 10px;
