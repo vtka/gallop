@@ -19,9 +19,12 @@ class Tracking extends React.Component {
       history = JSON.parse(localStorage.getItem("trackingHistory"))
     }
     if(Array.isArray(history) === true)
-      this.state = { code: "", loading: false, error: false, waybill: null, history: history }
+      this.state = { loading: false, error: false, code: props.number, waybill: null, history: history }
     else
-      this.state = { code: "", loading: false, error: false, waybill: null, history: [] }
+      this.state = { loading: false, error: false, code: props.number, waybill: null, history: [] }
+    if (props.number) {
+      this.fetchWaybill(this.state.code)
+    }
   }
 
   fetchWaybill = (code) => {
@@ -219,7 +222,9 @@ class Tracking extends React.Component {
               />
             </div>
           </form>
-          {this.renderHistory()}
+          <div className="hide-history">
+            {this.renderHistory()}
+          </div>
         </div>
         <div className="col-md-7">
           {this.renderResult()}

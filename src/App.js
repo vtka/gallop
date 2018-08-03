@@ -18,7 +18,7 @@ class App extends Component {
           <Route path="/about" component= {AboutMain} />
           <Route path="/contacts" component= {ContactMain} />
           <Route path="/services" component= {ServicesMain} />
-          <Route path="/tracking" component= {TrackingMain} />
+          <Route path="/tracking/:number?" component= {TrackingMain} />
         </div>
       </Router>
     );
