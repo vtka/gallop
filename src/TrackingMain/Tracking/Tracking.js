@@ -89,7 +89,7 @@ class Tracking extends React.Component {
     <div className="tracking__info-box">
       <Ionicon icon="ios-paper-outline" fontSize="35px"/>
       <h3>Введите номер накладной</h3>
-      <p>Введите номер накладной, указанный под штрих-кодом. Указывайте номер полностью, т.е. GP123456789KZ.</p>
+      <p>Введите номер накладной, указанный под штрих-кодом. Указывайте номер полностью, т.е. KSP123456789.</p>
     </div>
   )
 
