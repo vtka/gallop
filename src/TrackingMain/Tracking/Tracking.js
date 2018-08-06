@@ -4,6 +4,8 @@ import moment from 'moment';
 // import moment from 'moment/min/moment-with-locales.min.js';
 import axios from 'axios';
 
+import 'moment/locale/ru';
+
 import 'bootstrap-4-grid/css/grid.min.css'
 
 import './Tracking.css';
