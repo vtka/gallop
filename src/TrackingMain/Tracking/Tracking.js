@@ -142,16 +142,15 @@ class Tracking extends React.Component {
 
   renderTrack = (track) => (
     <div>
-      <p className="tracking__track-info">
+      <div className="tracking__track-info">
         <small className="tracking__track-time">{track.created_at}</small>
         <span className="tracking__track-code">
           {track.code}
         </span>
-        <b>{track.location_full}</b>
-      </p>
-      <p className="tracking__track-description">
-        {track.description}
-      </p>
+        <p className="tracking__track-description">
+          {track.description}
+        </p>
+      </div>
       <p className="tracking__track-description">
       {track.code == 'ls' && <aside className='aside-text'><small>Указано время регистрации деталей доставки. Фактическое время доставки указано в блоке "Успешная доставка" выше.</small></aside> }
       </p>

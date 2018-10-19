@@ -46,7 +46,7 @@
   .tracking__track:before {
     content: " ";
     display: block;
-    height: 80px;
+    height: 60px;
     width: 2px;
     background-color: #00509d;
     position: absolute;
@@ -61,17 +61,20 @@
   .tracking__track-code {
     text-transform: uppercase;
     background-color: #00509d;
-    padding: 5px 7px;
+    padding: 5px 7px 13px 7px;
     margin-right: 5px;
     color: #fff;
     border-radius: 100px;
+    float: left;
   }
   .tracking__track-time {
     float: right;
   }
 
   .tracking__track-description {
-    padding-left: 40px;
+    position: relative;
+    top: 5px;
+    padding: 0 10px;
   }
 
   .form-group input {
