@@ -141,14 +141,21 @@ class Tracking extends React.Component {
   }
 
   renderTrack = (track) => (
-    <p>
-      <small className="tracking__track-time">{track.created_at}</small>
-      <span className="tracking__track-code">
-        {track.code}
-      </span>
-      {track.description}
+    <div>
+      <p className="tracking__track-info">
+        <small className="tracking__track-time">{track.created_at}</small>
+        <span className="tracking__track-code">
+          {track.code}
+        </span>
+        <b>{track.location_full}</b>
+      </p>
+      <p className="tracking__track-description">
+        {track.description}
+      </p>
+      <p className="tracking__track-description">
       {track.code == 'ls' && <aside className='aside-text'><small>Указано время регистрации деталей доставки. Фактическое время доставки указано в блоке "Успешная доставка" выше.</small></aside> }
-    </p>
+      </p>
+    </div>
   )
 
   renderDeliveryStatus = (deliveries) => {
@@ -213,7 +220,7 @@ class Tracking extends React.Component {
   render() {
     return(
       <div className="tracking row">
-        <div className="col-md-5">
+        <div className="col-md-4">
           <form onSubmit={this.handleSubmit}>
             <div className="form-group">
               <input
@@ -228,7 +235,7 @@ class Tracking extends React.Component {
             {this.renderHistory()}
           </div>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-8">
           {this.renderResult()}
         </div>
       </div>

@@ -46,12 +46,16 @@
   .tracking__track:before {
     content: " ";
     display: block;
-    height: 40px;
+    height: 80px;
     width: 2px;
     background-color: #00509d;
     position: absolute;
     left: 16px;
-    top: 25px;
+    top: 22px;
+  }
+
+  .tracking__track-info {
+    margin-bottom: 0.5rem;
   }
   
   .tracking__track-code {
@@ -64,6 +68,10 @@
   }
   .tracking__track-time {
     float: right;
+  }
+
+  .tracking__track-description {
+    padding-left: 40px;
   }
 
   .form-group input {
